@@ -1,54 +1,54 @@
-import P5, { Color } from "p5";
+import P5 from "p5";
 import "./style.css";
 
-const sqsketch = (p5: P5) => {
-  p5.setup = () => {
-    p5.createCanvas(800, 800);
-    p5.background(225, 218, 195);
-  };
+// const sqsketch = (p5: P5) => {
+//   p5.setup = () => {
+//     p5.createCanvas(800, 800);
+//     p5.background(225, 218, 195);
+//   };
 
-  p5.draw = () => {
-    p5.strokeWeight(2);
-    //one sq
-    p5.stroke(200, 200, 200);
-    p5.fill(225, 218, 195);
-    p5.rect(50, 50, 700, 700);
+//   p5.draw = () => {
+//     p5.strokeWeight(2);
+//     //one sq
+//     p5.stroke(200, 200, 200);
+//     p5.fill(225, 218, 195);
+//     p5.rect(50, 50, 700, 700);
 
-    let x = 20;
+//     let x = 20;
 
-    p5.stroke(200, 200, 200);
-    p5.fill(225, 218, 195);
-    p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
+//     p5.stroke(200, 200, 200);
+//     p5.fill(225, 218, 195);
+//     p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
 
-    x = 40;
+//     x = 40;
 
-    p5.fill(225, 218, 195);
-    p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
+//     p5.fill(225, 218, 195);
+//     p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
 
-    x = 60;
+//     x = 60;
 
-    p5.fill(225, 218, 195);
-    p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
+//     p5.fill(225, 218, 195);
+//     p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
 
-    x = 80;
+//     x = 80;
 
-    p5.fill(225, 218, 195);
-    p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
+//     p5.fill(225, 218, 195);
+//     p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
 
-    x = 100;
+//     x = 100;
 
-    p5.fill(225, 218, 195);
-    p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
+//     p5.fill(225, 218, 195);
+//     p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
 
-    p5.stroke(231, 201, 212);
+//     p5.stroke(231, 201, 212);
 
-    p5.strokeWeight(3);
-    x = 140;
+//     p5.strokeWeight(3);
+//     x = 140;
 
-    p5.fill(225, 218, 195);
-    p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
-  };
-};
+//     p5.fill(225, 218, 195);
+//     p5.rect(50 + x, 50 + x, 700 - 2 * x, 700 - 2 * x);
+//   };
+// };
 
 const regsketch = (p5: P5) => {
   let colorPairs = [
